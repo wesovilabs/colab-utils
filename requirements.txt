@@ -1,0 +1,6 @@
+pytest
+pycodestyle
+IPython
+numpy
+google
+PIL
