@@ -20,17 +20,12 @@ setup(
     url='https://github.com/wesovilabs/colab-utils',
     license='MPL-2.0',
     packages=['colab-utils'],
-#   no dependencies in this example
-#   install_requires=[
-#       'dependency==1.2.3',
-#   ],
-#   no scripts in this example
-#   scripts=['bin/a-script'],
     include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',
         'Programming Language :: Python :: 3.9'
     ],
+    
 )
     
