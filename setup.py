@@ -7,7 +7,7 @@ with open(os.path.join(_here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 version = {}
-with open(os.path.join(_here, 'codelab-utils', 'version.py')) as f:
+with open(os.path.join(_here, 'colab-utils', 'version.py')) as f:
     exec(f.read(), version)
 
 setup(
@@ -18,9 +18,7 @@ setup(
     author='Iván Corrales Solera',
     author_email='ivan.corrales.solera@gmail.com',
     url='https://github.com/wesovilabs/colab-utils',
-    license='MPL-2.0',
     packages=['colab-utils'],
-    include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',
