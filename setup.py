@@ -7,18 +7,18 @@ with open(os.path.join(_here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 version = {}
-with open(os.path.join(_here, 'colab-utils', 'version.py')) as f:
+with open(os.path.join(_here, 'colabutils', 'version.py')) as f:
     exec(f.read(), version)
 
 setup(
-    name='colab-utils',
+    name='colabutils',
     version=version['__version__'],
     description=('Set of utilities for Google colabs'),
     long_description=long_description,
     author='Iván Corrales Solera',
     author_email='ivan.corrales.solera@gmail.com',
-    url='https://github.com/wesovilabs/colab-utils',
-    packages=['colab-utils'],
+    url='https://github.com/wesovilabs/colabutils',
+    packages=['colabutils'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',

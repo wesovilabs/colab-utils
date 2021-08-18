@@ -1,2 +1,2 @@
-(wesovilabs) colab-utils
+(wesovilabs) colabutils
 ===========
